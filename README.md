@@ -30,4 +30,9 @@ This is a binary classification problem. Given the set of features mentioned abo
 Since this is a binary classification problem, the following metrics will be used for evaluation:
 
 - **Confusion Matrix**: To provide a clear view of the number of correct and incorrect predictions made by the model.
-- **ROC-AUC (Receiver Operating Characteristic - Area Under the Curve)**: This metric evaluates the model's ability to distinguish between positive and negative classes by considering the rank of the output probabilities. AUC will be used to select the best-performing model, as it is well-suited for binary classification tasks.
+- **Accuracy** : Accuracy measures the proportion of correctly predicted instances out of the total instances. It’s a general measure of how often the classifier is correct.
+- **Classification Report** : It provides a detailed performance evaluation, 
+Precision: The ratio of true positive predictions to the total predicted positives. It indicates how many of the predicted positive cases were actually positive.
+Recall (Sensitivity): The ratio of true positive predictions to the total actual positives. It indicates how many of the actual positive cases were correctly identified.
+F1 Score: The harmonic mean of precision and recall, providing a balance between them. It’s useful when you need to balance precision and recall.
+Support: The number of actual occurrences of the class in the dataset.
